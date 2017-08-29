@@ -1,0 +1,70 @@
+﻿<style>
+/* hide unnecessary page title */
+#DeltaPlaceHolderPageTitleInTitleArea {
+	display: none;  
+}
+/* shrinks logo size to give more room for banner */
+.ms-siteicon-img{
+	max-height:48px;
+}
+/* hide quick launch sidebar */
+#sideNavBox { 
+	display: none;
+}
+ /* bring page up by deleting unnecessary white space */
+#s4-titlerow {
+	padding-bottom:0px;
+	height:30px;
+}
+/* sets page content to the same max width as the banner for responsive design */
+#layoutsTable{
+	max-width: 1055px;
+	height:auto;
+}
+/* overwrites static page margins to make dynamic */
+#contentBox { 
+	margin-left: 9%;
+	margin-right: 9%;
+}
+/* pulls up page by eliminating white space between toplink bar and content */
+#contentRow {
+	padding-top:0px;
+}
+/* Formatting size and color of TopLink Bar */
+ul.dynamic { 
+	width: 300px;
+}
+ul.dynamic .ms-core-listMenu-item{ 
+	padding: 5px;
+	display: block;
+}
+ul.dynamic .ms-core-listMenu-item:hover{
+	background-color: rgba( 205,230,247,0.5 )
+}
+.ms-core-listMenu-horizontalBox li.static> .ms-core-listMenu-item:hover {
+	color:#0072c6;
+} /*end formatting of TopLink Bar */
+.link-item{
+	font-size:large;
+}
+.item{
+	padding-right:4px;
+}
+/*removes whitespace between toplink bar and page content */
+.ms-rte-layoutszone-inner{
+	margin:0px;
+	border:none;
+}
+/*aligns the right column containing the yammer box with the edge of the banner */
+Td.ms-wiki-columnSpacing {
+	width: 35% !important;
+}
+/*Enlarges the Weekly Dose title name */
+.ms-webpart-titleText{
+	font-size:2.5em;
+}
+/*hides sudden popup to revert to orignal template */
+#pageStatusBar {
+	display:none!important;
+}
+</style>
