@@ -1,0 +1,6 @@
+<style>
+/*hide unnecessary page title */
+#DeltaPlaceHolderPageTitleinTitleArea{
+	display: none;
+	}
+  
